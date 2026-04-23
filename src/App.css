@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.filtered-list {
+  margin: 20px auto;
+  max-width: 400px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.filtered-list h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+.filter-controls {
+  margin-bottom: 15px;
+}
+
+.filter-controls label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.filter-controls select {
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.item-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.item {
+  padding: 8px 12px;
+  margin: 5px 0;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.item-type {
+  color: #666;
+  font-style: italic;
+}
+
+.list {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.list li {
+  padding: 5px 0;
+}
